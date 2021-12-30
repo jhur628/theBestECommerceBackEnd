@@ -10,6 +10,9 @@ router.get('/', async (req, res) => {
     const categoryData = await Category.findAll({
       include: [{ model: Product }],
     });
+    if (!categoryData) {
+      res.status(404).json({ message: 'No categories found!' })
+    }
     res.status(200).json(categoryData); 
   } catch (err) {
     res.status(500).json('OOPS! You are suck.');
@@ -75,7 +78,7 @@ router.delete('/:id', async (req, res) => {
     }
     res.status(200).json(categoryData)
   } catch (err) {
-    res.status(500).json('OOPS! You are suck.');
+    res.status(500).json('OOPS! You are suck. ' + err);
   }
 });
 
