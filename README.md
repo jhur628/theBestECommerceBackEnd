@@ -9,7 +9,7 @@ This application is used to create tables for the user's inventory. The applicat
 
 GitHub Repository: [https://github.com/jhur628/theBestECommerceBackEnd](https://github.com/jhur628/theBestECommerceBackEnd)
 
-Video Demo: [https://watch.screencastify.com/v/NQFbaZ42I2qDX067B0VJ](https://watch.screencastify.com/v/NQFbaZ42I2qDX067B0VJ)
+Video Demo: [https://watch.screencastify.com/v/D7SLcqSlICRjCiBB4mFY](https://watch.screencastify.com/v/D7SLcqSlICRjCiBB4mFY)
 
 ## Table of Contents
 ### [Installation](#Installation)
